@@ -12,7 +12,7 @@ Sometimes, when us linux users have to install Windows to do something or anothe
 First, we must boot into linux via the live CD. I used a version of Backtrack 5, but you can really use any you want. Then, with:
 
 {% highlight bash %}
-fdisk -l "stuff"
+fdisk -l
 {% endhighlight %}
 
 We can identtify all the partitions on the system.
