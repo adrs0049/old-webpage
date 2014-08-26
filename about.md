@@ -4,8 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Content to come! Contact me <a href="http://www.google.com/recaptcha/mailhide/d?k=01LmTwdTR54HkiyYJWP1_McA==&amp;c=wrycE40g8ZI9CQlrXQ8_WNqzbSRGreLUGxxriNYSMIU=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k=01LmTwdTR54HkiyYJWP1_McA==&amp;c=wrycE40g8ZI9CQlrXQ8_WNqzbSRGreLUGxxriNYSMIU=', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">[show email]</a>.
