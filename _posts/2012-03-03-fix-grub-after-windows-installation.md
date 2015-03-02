@@ -15,7 +15,7 @@ First, we must boot into linux via the live CD. I used a version of Backtrack 5,
 fdisk -l
 {% endhighlight %}
 
-We can identtify all the partitions on the system.
+We can identify all the partitions on the system.
 
 {% highlight bash %}
 mount /dev/sda5 /mnt
