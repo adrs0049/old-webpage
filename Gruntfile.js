@@ -172,7 +172,7 @@ module.exports = function (grunt) {
     watch: {
       concat: {
         files: '<%= project.src %>/js/{,*/}*.js',
-        tasks: ['concat:dev', 'jshint']
+        tasks: ['concat:dev', 'jshint', 'uglify']
       },
       sass: {
         files: '<%= project.src %>/scss/{,*/}*.{scss,sass}',
@@ -200,6 +200,7 @@ module.exports = function (grunt) {
   grunt.registerTask('default', [
     'sass:dev',
     'jshint',
+    'uglify',
     'concat:dev',
     'concurrent:target'
   ]);

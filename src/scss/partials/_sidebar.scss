@@ -1,9 +1,16 @@
+@import "_colors.scss";
+
 .sidebar {
   @include position(fixed, 0px 0 0px 0px);
   text-align: center;
-  background: #f5f6f5;
+  background: $sidebar-background-color;
+  color: $sidebar-font-color;
   height: 100%;
   width: 340px;
+
+  a {
+    color: $sidebar-font-color;
+  }
 }
 .sidebar__profile {
   margin: 40px 0;

@@ -474,9 +474,13 @@ h6 {
   bottom: 0px;
   left: 0px;
   text-align: center;
-  background: #f5f6f5;
+  background: #007C96;
+  color: white;
   height: 100%;
   width: 340px;
+}
+.sidebar a {
+  color: white;
 }
 
 .sidebar__profile {
