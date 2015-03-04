@@ -3,19 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <base href="http://wyattjoh.ca/assets/">
     <meta name="description" content="JavaScript, AngularJS and HTML5 engineer helping build a better web.">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
     <link href="//www.google-analytics.com" rel="dns-prefetch">
     <link href="//plus.google.com/+WyattJoh" rel="author">
-    <link href="css/style.min.css" rel="stylesheet">
+    <link href="{{ site.asset_url }}/css/style.min.css" rel="stylesheet">
   </head>
   <body{% if page.class %} class="{{ page.class }}"{% endif %}>
 
     <div class="sidebar clear">
       <div class="sidebar__profile">
-        <a href="/">
-          <img src="img/wyatt.jpg" alt="Wyatt Johnson" class="sidebar__profile-img">
+        <a href="{{ site.url }}/">
+          <img src="{{ site.asset_url }}/img/wyatt.jpg" alt="Wyatt Johnson" class="sidebar__profile-img">
         </a>
         <h1 class="sidebar__profile-name">
           Wyatt Johnson
@@ -35,17 +34,17 @@
         <nav class="sidebar__profile-nav">
           <ul>
             <li>
-              <a href="/">
+              <a href="{{ site.url }}/">
                 Posts
               </a>
             </li><!--
             --><li>
-              <a href="/about">
+              <a href="{{ site.url }}/about">
                 About
               </a>
             </li><!--
             --><li>
-              <a href="http://wyattjoh.ca/feed.xml">
+              <a href="{{ site.url }}/feed.xml">
                 RSS
               </a>
             </li><!--

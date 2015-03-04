@@ -8,7 +8,7 @@ title: Wyatt Johnson
             {% for post in paginator.posts %}
             <li>
               {% if post.external %}<a href="{{ post.external }}" target="_blank">
-              {% else %}<a href="{{ post.url }}">{% endif %}
+              {% else %}<a href="{{ site.url }}{{ post.url }}">{% endif %}
                 <h2 class="posts__title">{{ post.title }}</h2>
                 <span class="posts__date">{{ post.date | date: "%B %e, %Y" }}</span>
               </a>
@@ -20,19 +20,19 @@ title: Wyatt Johnson
           <div class="pagination clear">
             {% if paginator.previous_page %}
               {% if paginator.previous_page == 1 %}
-              <a href="/" class="pagination--previous">
+              <a href="{{ site.url }}/" class="pagination--previous">
                 <i class="fa fa-angle-double-left"></i>
                 Previous
               </a>
               {% else %}
-              <a href="/page{{paginator.previous_page}}" class="pagination--previous">
+              <a href="{{ site.url }}/page{{paginator.previous_page}}" class="pagination--previous">
                 <i class="fa fa-angle-double-left"></i>
                 Previous
               </a>
               {% endif %}
             {% endif %}
             {% if paginator.next_page %}
-            <a href="/page{{paginator.next_page}}" class="pagination--next">
+            <a href="{{ site.url }}/page{{paginator.next_page}}" class="pagination--next">
               Next
               <i class="fa fa-angle-double-right"></i>
             </a>
