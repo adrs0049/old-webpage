@@ -3,7 +3,10 @@
 .sidebar {
   @include position(fixed, 0px 0 0px 0px);
   text-align: center;
-  background: $sidebar-background-color;
+  background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)),url(../img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(1, 3, 9);
   color: $sidebar-font-color;
   height: 100%;
   width: 340px;
