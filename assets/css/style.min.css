@@ -4,7 +4,7 @@
  * http://wyattjoh.ca
  * @author Wyatt Johnson
  * @version 1.0.0
- * Copyright 2014. MIT licensed.
+ * Copyright 2015. MIT licensed.
  */
 
 .clear:before, .clear:after {
@@ -852,7 +852,6 @@ p > code {
   border-radius: 3px;
 }
 
-.highlight,
 .highlight pre,
 pre,
 .highlight .hll {
@@ -875,7 +874,7 @@ pre,
     Created with Base16 Builder by Chris Kempson (https://github.com/chriskempson/base16-builder)
 
 */
-.highlight, pre {
+pre {
   background: #2b2b2b;
   color: #f9f7f3;
 }

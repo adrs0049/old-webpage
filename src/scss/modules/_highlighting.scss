@@ -9,7 +9,7 @@ p {
     @include vendor(border-radius, 3px);
   }
 }
-.highlight,
+
 .highlight pre,
 pre,
 .highlight .hll {
@@ -28,7 +28,7 @@ pre,
     Created with Base16 Builder by Chris Kempson (https://github.com/chriskempson/base16-builder)
 
 */
-.highlight, pre  { background: #2b2b2b; color: #f9f7f3 }
+pre  { background: #2b2b2b; color: #f9f7f3 }
 .highlight .c { color: #5a647e } /* Comment */
 .highlight .err { color: #da4939 } /* Error */
 .highlight .k { color: #b6b3eb } /* Keyword */
