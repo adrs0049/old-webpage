@@ -3,7 +3,7 @@ title: Fix GRUB after Windows Installation
 author: Wyatt Johnson
 layout: post
 permalink: /fix-grub-after-windows-installation
-disqus: //wyattjoh.ca/fix-grub-after-windows-installation
+disqus: https://wyattjoh.ca/fix-grub-after-windows-installation
 path: 2012-03-03-fix-grub-after-windows-installation.md
 ---
 
