@@ -11,6 +11,7 @@ var jekylConfig = jsyaml.load(fs.readFileSync('./_config.yml'));
 gulp.task('manifest', function() {
   gulp.src('./assets/**')
   .pipe(revall())
+  .pipe(gulp.dest('./cdn'))
   .pipe(revall.manifest({ fileName: 'manifest.json', prefix: jekylConfig["asset_url"] }))
   .pipe(gulp.dest('./_data'));
 })
