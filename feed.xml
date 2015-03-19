@@ -5,10 +5,10 @@ layout: null
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>Wyatt Johnson</title>
-	<link href="http://wyattjoh.ca/feed.xml" rel="self" />
-	<link href="http://wyattjoh.ca/" />
+	<link href="https://wyattjoh.ca/feed.xml" rel="self" />
+	<link href="https://wyattjoh.ca/" />
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>http://wyattjoh.ca/</id>
+  <id>https://wyattjoh.ca/</id>
 	<author>
 		<name>Wyatt Johnson</name>
 		<email>wyatt@wyattjohnson.ca</email>
@@ -17,9 +17,9 @@ layout: null
 	{% for post in site.posts limit: 6 %}
 	<entry>
 		<title>{{ post.title }}</title>
-		<link href="http://wyattjoh.ca{{ post.url }}" />
+		<link href="https://wyattjoh.ca{{ post.url }}" />
 		<updated>{{ post.date | date_to_xmlschema }}</updated>
-		<id>http://wyattjoh.ca{{ post.id }}</id>
+		<id>https://wyattjoh.ca{{ post.id }}</id>
 		<content type="html">{{ post.content | xml_escape }}</content>
 	</entry>
 	{% endfor %}

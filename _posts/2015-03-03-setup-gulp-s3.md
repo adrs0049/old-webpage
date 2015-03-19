@@ -3,7 +3,7 @@ title: Setup Gulp to upload your assets to Amazon S3
 author: Wyatt Johnson
 layout: post
 permalink: /setup-gulp-upload-assets-s3
-disqus: http://wyattjoh.ca/setup-gulp-upload-assets-s3
+disqus: //wyattjoh.ca/setup-gulp-upload-assets-s3
 path: 2015-03-03-setup-gulp-s3.md
 ---
 

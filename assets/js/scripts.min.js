@@ -1,7 +1,7 @@
 /*!
  * Wyatt Johnson
  * Jekyll build for wyattjoh.ca
- * http://wyattjoh.ca
+ * https://wyattjoh.ca
  * @author Wyatt Johnson
  * @version 1.0.0
  * Copyright 2015. MIT licensed.
