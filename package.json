@@ -1,14 +1,14 @@
 {
-  "name": "wyattjoh.github.io",
-  "title": "Jekyll build for wyattjoh.ca",
-  "url": "https://wyattjoh.ca",
-  "author": "Wyatt Johnson",
+  "name": "adrs0049.github.io",
+  "title": "Jekyll build for buttenschoen.ca",
+  "url": "https://buttenschoen.ca",
+  "author": "Andreas Buttenschoen",
   "copyright": "2015",
   "version": "1.0.0",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/wyattjoh/wyattjoh.github.io.git"
+    "url": "http://github.com/adrs0049/adrs0049.github.io.git"
   },
   "devDependencies": {
     "connect-livereload": "~0.2.0",
