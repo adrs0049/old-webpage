@@ -5,10 +5,10 @@ layout: null
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>Andreas Buttenschoen</title>
-	<link href="https://buttenschoen.ca/feed.xml" rel="self" />
-	<link href="https://buttenschoen.ca/" />
+	<link href="https://www.buttenschoen.ca/feed.xml" rel="self" />
+	<link href="https://www.buttenschoen.ca/" />
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>https://buttenschoen.ca/</id>
+  <id>https://www.buttenschoen.ca/</id>
 	<author>
 		<name>Andreas Buttenschoen</name>
 		<email>andreas@buttenschoen.ca</email>
@@ -17,9 +17,9 @@ layout: null
 	{% for post in site.posts limit: 6 %}
 	<entry>
 		<title>{{ post.title }}</title>
-		<link href="https://buttenschoen.ca{{ post.url }}" />
+		<link href="https://www.buttenschoen.ca{{ post.url }}" />
 		<updated>{{ post.date | date_to_xmlschema }}</updated>
-		<id>https://buttenschoen.ca{{ post.id }}</id>
+		<id>https://www.buttenschoen.ca{{ post.id }}</id>
 		<content type="html">{{ post.content | xml_escape }}</content>
 	</entry>
 	{% endfor %}
