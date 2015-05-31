@@ -15,10 +15,10 @@ Feel free to email me at <a href="http://www.google.com/recaptcha/mailhide/d?k=0
 If you're into that, you can sign/encrypt your messages with the following details.
 
 ```
-Fingerprint: 
+Fingerprint: D9D8 F02F 7517 02B1 3B44  B3B9 38A8 F6C7 4992 00B9
 
 Key Server:   pgp.mit.edu
-Key ID:       
+Key ID: 499200B9
 ```
 
 ### Licensing
