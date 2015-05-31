@@ -38,7 +38,8 @@ layout: default
     </article>
 
     <script>
-      var disqus_url = {%if page.disqus %}'{{ page.disqus }}'{%else %}'https://buttenschoen.ca{{ page.url }}'{% endif %};
+      var disqus_url = {%if page.disqus %}'{{ page.disqus }}'{%else
+        %}'https://www.buttenschoen.ca{{ page.url }}'{% endif %};
       var disqus_title = '{{ page.title }}';
       var disqus_shortname = 'adrs0049';
       (function() {

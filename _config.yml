@@ -4,4 +4,4 @@ highlighter: pygments
 exclude: ['README.md', 'src/', 'node_modules', 'package.json', 'gulpfile.js']
 permalink: /:year/:month/:title
 paginate: 10
-url: https://buttenschoen.ca
+url: https://www.buttenschoen.ca
