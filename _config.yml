@@ -5,5 +5,4 @@ exclude: ['README.md', 'src/', 'node_modules', 'package.json', 'gulpfile.js']
 permalink: /:year/:month/:title
 paginate: 10
 enforce_ssl: www.buttenschoen.ca
-enforce_ssl: adrs0049.github.io
 url: https://www.buttenschoen.ca
