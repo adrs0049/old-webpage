@@ -4,22 +4,22 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>Wyatt Johnson</title>
-	<link href="https://wyattjoh.ca/feed.xml" rel="self" />
-	<link href="https://wyattjoh.ca/" />
+	<title>Andreas Buttenschoen</title>
+	<link href="https://buttenschoen.ca/feed.xml" rel="self" />
+	<link href="https://buttenschoen.ca/" />
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>https://wyattjoh.ca/</id>
+  <id>https://buttenschoen.ca/</id>
 	<author>
-		<name>Wyatt Johnson</name>
-		<email>wyatt@wyattjohnson.ca</email>
+		<name>Andreas Buttenschoen</name>
+		<email>andreas@buttenschoen.ca</email>
 	</author>
 
 	{% for post in site.posts limit: 6 %}
 	<entry>
 		<title>{{ post.title }}</title>
-		<link href="https://wyattjoh.ca{{ post.url }}" />
+		<link href="https://buttenschoen.ca{{ post.url }}" />
 		<updated>{{ post.date | date_to_xmlschema }}</updated>
-		<id>https://wyattjoh.ca{{ post.id }}</id>
+		<id>https://buttenschoen.ca{{ post.id }}</id>
 		<content type="html">{{ post.content | xml_escape }}</content>
 	</entry>
 	{% endfor %}

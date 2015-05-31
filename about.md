@@ -4,26 +4,22 @@ title: About
 permalink: /about/
 ---
 
-I'm Wyatt, a software developer working out of Calgary, AB at a startup called [Trumpet](https://trumpet.ca/). I'm building our web infrustructure primarily in Go with some help from BackboneJS and ReactJS to bring our simple pages to life.
+Fill me
 
 ### Contact
 
-Feel free to email me at <a href="http://www.google.com/recaptcha/mailhide/d?k=01LmTwdTR54HkiyYJWP1_McA==&amp;c=wrycE40g8ZI9CQlrXQ8_WNqzbSRGreLUGxxriNYSMIU=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k=01LmTwdTR54HkiyYJWP1_McA==&amp;c=wrycE40g8ZI9CQlrXQ8_WNqzbSRGreLUGxxriNYSMIU=', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">[show email]</a> or send me a [tweet](https://twitter.com/wyattjoh).
+Feel free to email me at <a href="http://www.google.com/recaptcha/mailhide/d?k=01UsWpadthDzzeBwwupQWKKA==&amp;c=ZCN2TQB-VaFeBC6FO7KvigTQhkOp2z0DyyCCGsI7W7A=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501UsWpadthDzzeBwwupQWKKA\75\75\46c\75ZCN2TQB-VaFeBC6FO7KvigTQhkOp2z0DyyCCGsI7W7A\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">[show email]</a> or send me a [tweet](https://twitter.com/adrs0061).
 
 #### GPG
 
 If you're into that, you can sign/encrypt your messages with the following details.
 
 ```
-Fingerprint:  FC11 AA24 1AED 0767 4501 40F1 37FC 0A49 FC15 5AD4
+Fingerprint: 
 
 Key Server:   pgp.mit.edu
-Key ID:       FC155AD4
+Key ID:       
 ```
-
-### Project Ideas
-
-- Go program to convert a `docker-compose.yml` into a `systemd` unit
 
 ### Licensing
 
