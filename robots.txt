@@ -1,3 +1,3 @@
 User-agent: *
-Sitemap: https://www.buttenschoen.ca/sitemap.xml
+Sitemap: http://www.buttenschoen.ca/sitemap.xml
 Disallow:

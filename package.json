@@ -1,7 +1,7 @@
 {
   "name": "adrs0049.github.io",
   "title": "Jekyll build for buttenschoen.ca",
-  "url": "https://www.buttenschoen.ca",
+  "url": "http://www.buttenschoen.ca",
   "author": "Andreas Buttenschoen",
   "copyright": "2015",
   "version": "1.0.0",
